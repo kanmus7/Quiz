@@ -10,7 +10,7 @@ const HomeScreen = () => {
                 <p className='info'> You will be presented with 10 True or False questions.</p>
                 <p> Can you score 100%?</p>
             </section>
-            <Link className='begin-ref' to='/quizzes'>BEGIN</Link>
+            <Link className='begin-ref' to='/Quiz/quizzes'>BEGIN</Link>
         </>;
 };
 

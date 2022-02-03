@@ -10,7 +10,7 @@ const ShowQuiz = ({ quizzes, page, setPage, setAnswer, answer }) => {
   function handleValues(target) {
     setAnswer([...answer, target.value])
     if (page === 9) {
-      navigate('/results')
+      navigate('/Quiz/results')
     }
     setPage(page + 1)
   }

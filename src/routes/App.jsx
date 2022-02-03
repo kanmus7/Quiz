@@ -9,9 +9,9 @@ function App() {
   const [quizzes, setQuizzes] = useState([])
   return (
     <Routes>
-      <Route path="/" element={<HomeScreen setAnswer={setAnswer} />} />
-      <Route path="/quizzes" element={<QuizzesLayout answer={answer} setAnswer={setAnswer} quizzes={quizzes} setQuizzes={setQuizzes} />} />
-      <Route path="/results" element={<ResultsLayout quizzes={quizzes} answers={answer} setAnswer={setAnswer} />} />
+      <Route path="/Quiz" element={<HomeScreen setAnswer={setAnswer} />} />
+      <Route path="/Quiz/quizzes" element={<QuizzesLayout answer={answer} setAnswer={setAnswer} quizzes={quizzes} setQuizzes={setQuizzes} />} />
+      <Route path="/Quiz/results" element={<ResultsLayout quizzes={quizzes} answers={answer} setAnswer={setAnswer} />} />
     </Routes>
   );
 }

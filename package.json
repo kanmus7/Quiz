@@ -1,6 +1,6 @@
 {
-  "homepage": "https://kanmus7.github.io/Quiz",
   "name": "quiz",
+  "homepage": "https://kanmus7.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

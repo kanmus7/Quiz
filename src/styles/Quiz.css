@@ -1,0 +1,27 @@
+
+.quiz{
+    border: 1px solid black;
+    max-width: 600px;
+    padding: 1rem;
+    cursor: pointer;
+    word-wrap: break-word;
+}
+
+.showOptions-Container{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding: 3rem;
+}
+
+input{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+input:hover{
+    color: rgb(47, 143, 233);
+}

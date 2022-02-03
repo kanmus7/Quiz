@@ -1,0 +1,53 @@
+@media screen and (max-width:850px) {
+
+    html,body{
+        min-width: 320px;
+    }
+
+    .header-Title {
+        font-size: 35px;
+    }
+
+    .section-container {
+        margin-top: 0rem;
+    }
+    
+    p {
+        font-size: 28px;
+        padding: 1rem;
+        min-width: 300px;
+        margin-top: 4rem;
+    }
+
+    a{
+        font-size: 30px;
+        margin-top: 5rem;
+    }
+
+    .quiz{
+        margin-top: 2rem;
+        max-width: 320px ;
+    }
+
+    .quizCardResult-Container {
+        width: 360px;
+    }
+
+    .title-Container{
+        font-size: 13px;
+    }
+
+    img{
+        width: 20px;
+    }
+
+    .list {
+        display: flex;
+        width: auto;
+        justify-content: space-between;
+    }
+
+    li{
+        font-size: 20px;
+    }
+}

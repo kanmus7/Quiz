@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: #e0e0e0;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3rem;
+  text-align: center;
+}

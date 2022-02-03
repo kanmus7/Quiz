@@ -1,2 +1,0 @@
-# Quiz
-Front Coding Challenge
